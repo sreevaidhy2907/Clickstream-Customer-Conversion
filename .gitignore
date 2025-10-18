@@ -1,0 +1,50 @@
+---
+
+# 🛡️ `.gitignore`
+
+```bash
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Streamlit
+.streamlit/
+
+# Data
+data/*.zip
+data/*.rar
+data/*.7z
+data/*.bak
+data/*.tar.gz
+*.csv
+
+# Outputs and Artifacts
+outputs_*/
+*.pkl
+*.joblib
+*.png
+*.csv
+*.txt
+
+# Jupyter / VSCode
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
